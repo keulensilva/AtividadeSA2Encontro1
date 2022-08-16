@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  
+
   <title>Game Mania</title>
 </head>
 <body>
@@ -27,10 +30,46 @@
     </div>
   </div>
 
-  <main class = "container-imagem">
-    <section class = "container-banner">
-      
-    </section>
+  <!-- Container Carousel -->
+  <main class = "container-fluid" >
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" >
+        <div class="carousel-item active">
+          <img src="./images/banner_cs.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Counter Strike</h5>
+           
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/banner_lol.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>League of Legends</h5>
+            
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/banner_pilotos.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Pilotos</h5>
+           
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
  
   </main>
   <section class = "container-patrocionadores">
@@ -41,9 +80,53 @@
     </div>   
   </section>
 
+  <div class = "center container d-flex justify-content-between ">
+  <div class = "row">
+    <div class = "col-12 col-md-6 col lg-3  d-flex justify-content-center">
+      <div class = "card" style="width: 25rem;">
+        <img src="images/campeao-lol.png" class = "card-img-top" alt="...">
+        <div class = "card-body">
+          <h5 class = "card-title">Ezreal</h5>
+          <p class = "card-text">League of Legends</p>
+          <a href="#" class = "btn btn-primary"> Go</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class = "row">
+    <div class = "col-12 col-md-6 col lg-3  d-flex justify-content-center">
+      <div class = "card" style="width: 25rem;">
+        <img src="images/cardnews.jpg" class = "card-img-top" alt="...">
+        <div class = "card-body">
+          <h5 class = "card-title">Isadora</h5>
+          <p class = "card-text">Jogadora Profissional</p>
+          <a href="#" class = "btn btn-primary"> Go</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class = "row">
+    <div class = "col-12 col-md-6 col lg-3  d-flex justify-content-center">
+      <div class = "card" style="width: 25rem;">
+        <img src="images/SK 1.png" class = "card-img-top" alt="...">
+        <div class = "card-body">
+          <h5 class = "card-title">SK Gaming</h5>
+          <p class = "card-text">Counter Strike</p>
+          <a href="#" class = "btn btn-primary"> Go</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
   <section class = "atendimento">
-    <a href="#">Atendimento Online</a>
+    <a href="">Atendimento Online</a>
   </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
